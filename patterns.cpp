@@ -37,19 +37,28 @@ OUTPUT:-
 1234*/
 
 //Pattern 3
-void printN(int rows){
+/*void printN(int rows){
     int n=1;
     while(n<=rows){
         int cols=1;
-        while(cols<=rows){
-            cout<<
+        while(cols<=n){
+            cout<<n;
+            cols++;
         }
+        cout<<endl;
+        n++;
 
     }
-}
+}*/
+/* 
+output:-
+1
+22
+334
+4444*/
 
 
 int main(){
-    
+    printN(4);
     return 0;
 }

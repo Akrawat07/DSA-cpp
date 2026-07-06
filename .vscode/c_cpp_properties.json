@@ -8,7 +8,7 @@
                 "C:/Program Files/MinGW/mingw32/include",
                 "C:/Program Files/MinGW/include"
             ],
-            "intelliSenseMode": "windows-gcc-x64",
+            "intelliSenseMode": "windows-gcc-x86",
             "cppStandard": "c++17"
         }
     ],

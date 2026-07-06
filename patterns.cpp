@@ -120,7 +120,53 @@ output:-
     321
     4321*/
 
+void print6N(int rows){
+    int n=1;
+    while(n<=rows){
+        int cols=1;
+        while(cols<=rows){
+            char ch='A'+n-1;
+            cout<<ch;
+            cols++;
+        }
+        cout<<endl;
+        n++;
 
+    }
+}
+/*
+AAA
+BBB
+CCC
+*/
+void printN(int rows){
+    int n=1;
+    while(n<=rows){
+        int space=rows-n;
+        while(space){
+            cout<<" ";
+            space--;
+        }
+        int j=1;
+        while(j<=n){
+            cout<<j;
+            j++;
+        }  
+        int k=n-1;
+        while(k){
+            cout<<k;
+            k--;
+        }
+        cout<<endl;
+        n++;
+
+    }
+}
+/*output:-
+   1
+  121
+ 12321
+ */
 
 int main(){
     printN(4);

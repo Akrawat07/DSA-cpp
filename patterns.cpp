@@ -57,7 +57,27 @@ output:-
 334
 4444*/
 
+void printN(int rows){
+    int n=1;
+    int count=1;
+    while(n<=rows){
+        int cols=1;
+        while(cols<=n){
+            cout<<count;
+            count++;
+            cols++;
+        }
+        cout<<endl;
+        n++;
 
+    }
+}
+/* output:-
+1
+23
+456
+78910
+*/
 int main(){
     printN(4);
     return 0;

@@ -57,7 +57,7 @@ output:-
 334
 4444*/
 
-void printN(int rows){
+/*void print4N(int rows){
     int n=1;
     int count=1;
     while(n<=rows){
@@ -72,12 +72,56 @@ void printN(int rows){
 
     }
 }
-/* output:-
+ output:-
 1
 23
 456
 78910
 */
+
+/*void print5N(int rows){
+    int n=1;
+    while(n<=rows){
+        int cols=1;
+        int count =n;
+        while(cols<=n){
+            cout<<count;
+            count++;
+            cols++;
+        }
+        cout<<endl;
+        n++;
+
+    }
+}
+output:-
+1
+23
+345
+4567*/
+
+
+/*void print6N(int rows){
+    int n=1;
+    while(n<=rows){
+        int cols=n;
+        while(cols>=1){
+            cout<<cols;
+            cols--;
+        }
+        cout<<endl;
+        n++;
+
+    }
+}
+    output:-;
+    1
+    21
+    321
+    4321*/
+
+
+
 int main(){
     printN(4);
     return 0;

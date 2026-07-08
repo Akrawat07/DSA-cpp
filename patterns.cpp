@@ -139,7 +139,7 @@ AAA
 BBB
 CCC
 */
-void printN(int rows){
+/*void print6N(int rows){
     int n=1;
     while(n<=rows){
         int space=rows-n;
@@ -162,13 +162,40 @@ void printN(int rows){
 
     }
 }
-/*output:-
+output:-
    1
   121
  12321
  */
 
+
+void printN(int rows){
+    for(int i=1;i<=rows;i++){
+        for(int j=1;j<=rows-i+1;j++){
+            cout<<j;}
+        for (int k=1;k<i;k++){
+            cout<<"*";
+        }
+        for (int t=1;t<i;t++){
+            cout<<"*";
+        }
+        for(int s=rows-i+1;s>=1;s--){
+            cout<<s;
+        }
+        cout<<endl;
+        
+    }
+}
+/*
+output:
+1234554321
+1234**4321
+123****321
+12******21
+1********1
+*/
+
 int main(){
-    printN(4);
+    printN(5);
     return 0;
 }
